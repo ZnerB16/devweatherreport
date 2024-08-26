@@ -1,0 +1,34 @@
+{
+    "posts": [
+        [
+            {
+                "id": 1,
+                "author": "Brenz",
+                "authorHandle": "Developer",
+                "title": "I am so tired of data",
+                "body": "Dead"
+            },
+            {
+                "id": 2,
+                "author": "Yuji",
+                "authorHandle": "Wuji",
+                "title": "Got Sukuna pummeled",
+                "body": "GGs"
+            },
+            {
+                "id": 3,
+                "author": "Anya",
+                "authorHandle": "Crybaby",
+                "title": "Anya likes peanuts",
+                "body": "I like peanuts and I don't like carrots, but I really like crispy bacon from bakeries."
+            },
+            {
+                "id": 4,
+                "author": "Brenz",
+                "authorHandle": "Developer",
+                "title": "Yappathon is coming",
+                "body": "I'm not ready yet"
+            }
+        ]
+    ]
+}
