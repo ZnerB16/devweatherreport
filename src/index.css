@@ -102,8 +102,9 @@ button{
   color: #ffdb3d;
 }
 .post-body{
-  margin: 0;
+  margin: 0 10px;
   margin-bottom: 1em;
+  text-align: justify;
 }
 .delete-button{
   background-color: rgb(255, 29, 29);

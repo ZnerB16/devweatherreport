@@ -4,29 +4,29 @@
             "id": 1,
             "author": "Brenz",
             "authorHandle": "Developer",
-            "title": "I am so tired of data",
-            "body": "Dead"
+            "title": "Yappathon is coming",
+            "body": "I'm not ready yet"
         },
         {
             "id": 2,
+            "author": "Brenz",
+            "authorHandle": "Developer",
+            "title": "I am so tired of searching for a data job",
+            "body": "Everyday, I get the feeling that all the studies about data science that I have learned throughout my college degree would become worthless if I pursue my passion as a developer. For the past 3 months, I was bouncing around learning new skills from data to development hoping that I'd finally get a job at something, it didn't have to be data, nor development, I just wanted to feel like a professional after graduating. I'm just really frustrated and envious that all of my college classmates and friends have found data-related jobs and are thriving. As for me, I'm slowly succumbing to my own thoughts in existential crisis. "
+        },
+        {
+            "id": 3,
             "author": "Yuji Itadori",
             "authorHandle": "Wuji",
             "title": "Got Sukuna pummeled",
             "body": "GGs"
         },
         {
-            "id": 3,
+            "id": 4,
             "author": "Anya Forger",
             "authorHandle": "Crybaby",
             "title": "Anya likes peanuts",
             "body": "I like peanuts and I don't like carrots, but I really like crispy bacon from bakeries."
-        },
-        {
-            "id": 4,
-            "author": "Brenz",
-            "authorHandle": "Developer",
-            "title": "Yappathon is coming",
-            "body": "I'm not ready yet"
         }
     ],
     "users": [
