@@ -1,4 +1,4 @@
-const PostList = ({posts, title, handleDelete}) => {
+const PostList = ({posts, title}) => {
     
     return (
         <div className="post-list">
@@ -11,7 +11,7 @@ const PostList = ({posts, title, handleDelete}) => {
                                 <h3 className="author-heading">{post.author}</h3>
                                 <h5 className="author-handle">{post.authorHandle}</h5>
                             </div>
-                            <button className="delete-button" onClick={()=> handleDelete(post.id)}>Delete Post</button>
+                            {/* <button className="delete-button" onClick={()=> handleDelete(post.id)}>Delete Post</button> */}
                         </div>
                         <h2 className="post-title">{post.title}</h2>
                         <p className="post-body">{post.body}</p>

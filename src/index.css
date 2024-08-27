@@ -116,3 +116,59 @@ button{
 .change-name-button{
   height: 50px;
 }
+.loading-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 1em;
+}
+.loading-title{
+  margin: 0;
+}
+.loading-message{
+  margin: 0;
+  color:#6c6c6c;
+}
+.loading-error{
+  color: red;
+}
+.create{
+  padding: 20px;
+  width: 100%;
+  max-width: 900px;
+  align-self: center;
+}
+.form-div{
+  height: 100%;
+}
+.form-div input{
+  display: block;
+  padding: 20px;
+  margin: 1em;
+  width: 100%;
+  height: 30px;
+  background-color: #323232;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.form-div textarea{
+  padding: 20px;
+  margin: 1em;
+  width: 100%;
+  height: 30px;
+  background-color: #323232;
+  border: 1px solid gray;
+  resize: none;
+  border-radius: 5px;
+}
+.form-title{
+  font-size: 1em;
+  color:#ffdb3d;
+}
+.form-body{
+  height: 100px;
+  max-lines: 10;
+  font-size: 1em;
+  
+}

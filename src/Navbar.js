@@ -1,20 +1,18 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
     return(
         <nav className="navbar">
-            <h1 className="title">The Developer Weather Report</h1>
+            <h1 className="title">Developer Weather Report</h1>
             <div className="links">
-                <a href="/">Home</a>
-                <a href="/report">About</a>
-                <a href="/login" style={{
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/create" style={{
                     color: "black",
                     backgroundColor: "#ffdb3d",
-                    borderRadius: "5px"
-                }}>Log In</a>  
-                <a href="/signup" style={{
-                    color: "white",
-                    backgroundColor: "#000000",
-                    borderRadius: "5px"
-                }}>Sign Up</a>  
+                    borderRadius: "5px",
+                    fontWeight: "bold"
+                }}>Create New Post</Link>  
             </div>
         </nav>
     );
