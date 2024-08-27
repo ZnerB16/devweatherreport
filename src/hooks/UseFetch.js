@@ -7,21 +7,28 @@ const useFetch = (url)=> {
 
     // Fetch data from json-server before render
     useEffect(()=>{
-        fetch(url)
+        const abortCont = new AbortController();
+
+        fetch(url, { signal: abortCont.signal })
             .then(res =>{
                 if(!res.ok){
                     throw Error("Failed to fetch the data");
                 }
                 return res.json(); // Parses response from server to a json format
             })
-            .then((data) =>{
+            .then((data) => {
                 setError(null);
                 setIsPending(false);
                 setData(data); // Sets the parsed json format to the posts state
-            }).catch(err =>{
+            }).catch(err => {
+                if(err.name === "AbortError"){
+                    console.log("Fetch aborted");
+                }
                 setError(err.message);
                 setIsPending(false);
             });
+
+        return () => abortCont.abort();
     }, [url]);
 
     return {data, isPending, error};

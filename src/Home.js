@@ -18,7 +18,7 @@ const Home = () => {
             {/* <button onClick={handleClick}>Click me for a surprise!</button> */}
             {/* <button onClick={(e) => handleClickWithParam(name, e)}>Click me for another surprise!</button> */}
             <div className="flex-row">
-                {error && <h3 class="loading-error">Error: {error}</h3>}
+                {error && <h3 className="loading-error">Error: {error}</h3>}
                 {isPending && <Loading error={error}/>}
                 {data && <PostList posts={data} title="All Posts"/>}
             </div>
